@@ -1,14 +1,14 @@
 public class Kata{
 
-	private Boolean multiple_of_five(int n){
+	public static Boolean multiple_of_five(int n){
 		return (n%5) == 0;
 	}
 
-	private Boolean multiple_of_three(int n){
+	public static Boolean multiple_of_three(int n){
 		return (n%3) == 0;
 	}
 
-	private void calculate(int n){
+	public static void calculate(int n){
 		for(int i=0; i<n; i++){
 
 			if(multiple_of_three(n)){
