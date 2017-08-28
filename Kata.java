@@ -11,15 +11,15 @@ public class Kata{
 	public static void calculate(int n){
 		for(int i=0; i<n; i++){
 
-			if(multiple_of_three(n)){
-				if(multiple_of_five(n)){
+			if(multiple_of_three(i)){
+				if(multiple_of_five(i)){
 					System.out.println("FizzBuzz");
 				}
 				else{
 					System.out.println("Fizz");
 				}
 			}
-			else if(multiple_of_five(n)){
+			else if(multiple_of_five(i)){
 				System.out.println("Buzz");
 			}
 			else{
